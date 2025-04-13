@@ -4,9 +4,10 @@ import './index.css'
 import App from './App.jsx'
 
 {
-  /* The following line can be included in your src/index.js or App.js file */
+  /* The following line can be included in your src/main.jsx or App.js file */
 }
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { RouterProvider } from 'react-router-dom';
 import router from './routes/routes.jsx';
 
