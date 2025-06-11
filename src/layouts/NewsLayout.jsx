@@ -9,15 +9,14 @@ import { Outlet } from 'react-router-dom';
 const NewsLayout = () => {
     return (
         <div>
-                        <Header></Header>
+            <Header></Header>
             <Container>
-
                 <Row>
                     <Col lg={9}>
-                    <Outlet></Outlet>
+                        <Outlet></Outlet>
                     </Col>
                     <Col lg={3}>
-                    <RightNav></RightNav>
+                        <RightNav></RightNav>
                     </Col>
                 </Row>
             </Container>
